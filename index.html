@@ -35,48 +35,7 @@
                    <h1> meus produtos</h1>
                    <div class="container-produto">
                         <div class="linha1" id="container" data-lista>
-                        <!------------------------------------------>
-                        <!--    
-                            <div class="card">
-                                <div class="imagem">
-                                    <img src="images/star wars.jpeg" alt="">
-                                    <h4>stormtrooper</h4>
-                                </div>
-                                
-                                <div class="frame2">
-                                    <p>$ 60,00</p>
-                                    <a href="#">
-                                        <img id="lixo" src="images/lixeira.png">
-                                    </a>
-                                    
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="imagem">
-                                    <img src="images/star wars.jpeg" alt="">
-                                    <h4>stormtrooper</h4>
-                                </div>
-                                
-                                <div class="frame2">
-                                    <p>$ 60,00</p>
-                                    <img src="images/lixeira.png">
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="imagem">
-                                    <img src="images/gameboy.png" alt="">
-                                    <h4>GameBoy</h4>
-                                </div>
-                                
-                                <div class="frame2">
-                                    <p>$ 90,00</p>
-                                    <img src="images/lixeira.png">
-                                </div>
-                            </div>
-                            
-                           
-                        -->   
-                        <!------------------------------------------>
+                
                         </div>
                    </div>
                 </section><!--fim meus-produtos-->
@@ -85,9 +44,11 @@
                         <div class="interface">
                             <h1 class="titulo"> Adicionar produto</h1>
                             <form action="" data-formulario>
-                                <input type="text" name="" id="" placeholder="nome..." required data-nome>
-                                <input type="text" name="" id="" placeholder="Valor..." required data-valor>
-                                <input type="url" name="" id="" placeholder="imagem..." data-imagem>
+                                <div class="conteudo-formulario">
+                                    <input type="text" name="" id="" placeholder="nome..." maxlength="18" required data-nome>
+                                    <input type="text" name="" id="" placeholder="Valor..." maxlength="12" required data-valor>
+                                    <input type="url" name="" id="" placeholder="imagem..." required data-imagem>
+                                </div>
                                 <div class="bottoms">
                                     <div class="btn-guardar"> <input type="submit" value="Guardar">  
                                     </div><!--fim btn-enviar-->
@@ -118,5 +79,6 @@
     <script src="JavaScript/conectaAPI.js" type="module"></script>
     <script src="JavaScript/MostraFoto.js" type="module"></script>
     <script src="JavaScript/criaFoto.js" type="module"></script>
+    <script src="JavaScript/apagarCard.js" type="module"></script>
 </body>
 </html>

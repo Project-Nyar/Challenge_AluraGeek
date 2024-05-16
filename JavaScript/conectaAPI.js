@@ -6,6 +6,7 @@ async function listaFotos() {
 }
 
 async function criaFoto(nome, valor, imagem) {
+
     const conexao = await fetch("http://localhost:3000/jogos", {
         method: "POST",
         headers: {
